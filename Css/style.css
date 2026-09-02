@@ -2,16 +2,51 @@
   color: blue;
 }
 
-.number{
-    border-right: 1px solid #ccc ;
+.number {
+  border-right: 1px solid #ccc;
 }
-.Top_Left{
-    color: blue;
+.Top_Left {
+  color: blue;
 }
-.contact{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 10%;
-    border-bottom: 1px solid #ccc;
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  border-bottom: 1px solid #ccc;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+.NPC {
+  padding: 1% 8%;
+}
+
+.Flag {
+  padding: 0 6%;
+}
+.Flag img {
+  height: 81px;
+  width: auto;
 }
