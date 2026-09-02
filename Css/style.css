@@ -1,0 +1,17 @@
+.Top_Right span {
+  color: blue;
+}
+
+.number{
+    border-right: 1px solid #ccc ;
+}
+.Top_Left{
+    color: blue;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    border-bottom: 1px solid #ccc;
+}
