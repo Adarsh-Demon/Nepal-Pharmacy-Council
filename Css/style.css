@@ -47,6 +47,71 @@ body {
   padding: 0 6%;
 }
 .Flag img {
-  height: 81px;
+  height: 60px;
   width: auto;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  background-color: blue;
+  font-weight: 400;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  margin: 0;
+  cursor: pointer;
+}
+.arrow {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.DropDown {
+  list-style: none;
+  display: none;
+  position: absolute;
+  background: white;
+  box-shadow: 2px 2px 2px  gray;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+
+.DropDown li {
+  padding: 12px;
+  color: black;
+}
+
+.nav li:hover .DropDown {
+  display: block;
+}
+
+.nav > li:hover {
+  position: relative;
+  background: red;
+}
+.DropDown li:hover {
+  background: blue;
+  color: white;
+  cursor: pointer;
+}
+
+/* .News{
+  background: red;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  padding-left:20px;
+  padding-right: 20px;
+  position: relative;
+} */
+.News {
+  background: red;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 20px;
+  width: 40px;
 }
