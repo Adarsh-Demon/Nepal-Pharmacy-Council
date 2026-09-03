@@ -73,12 +73,11 @@ body {
   display: none;
   position: absolute;
   background: white;
-  box-shadow: 2px 2px 2px  gray;
+  box-shadow: 2px 2px 2px gray;
   margin: 0;
   padding: 0;
   cursor: pointer;
 }
-
 
 .DropDown li {
   padding: 12px;
@@ -124,8 +123,9 @@ body {
   color: red;
   display: inline-block;
   padding-top: 8px;
-  animation: scroll_News 20s linear infinite,
-  Fade-in-out 0.5s infinite alternate ;
+  animation:
+    scroll_News 20s linear infinite,
+    Fade-in-out 0.5s infinite alternate;
 }
 @keyframes scroll_News {
   from {
@@ -137,14 +137,58 @@ body {
   }
 }
 @keyframes Fade-in-out {
-  0%{
+  0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }
-.NewsContainer>.Nepali:hover{
+.NewsContainer > .Nepali:hover {
   animation-play-state: paused;
   cursor: inherit;
 }
+
+.Side_Bar {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 1px;
+  position: absolute;
+  left: 10%;
+  top: 26%;
+}
+
+.Side_Bar span {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 6px;
+  border: 2px solid rgb(74, 74, 74);
+  padding: 10px 12px;
+  background: white;
+  cursor: pointer;
+  height: 50px;
+}
+.Side_Bar .fade {
+  animation: Fade-in-out 0.5s infinite alternate;
+  background-color: blue;
+  color: white;
+}
+
+.Side_Bar :hover {
+  background: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.image_slider{
+  width: 700px;
+  height: 445px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  left: 29%;
+  top: 26%;
+}
+
