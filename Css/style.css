@@ -1,3 +1,6 @@
+.body{
+  font-family: Arial, Helvetica, sans-serif;
+}
 .Top_Right span {
   color: blue;
 }
@@ -125,8 +128,8 @@ body {
   display: inline-block;
   padding-top: 8px;
   animation:
-    scroll_News 20s linear infinite,
-    Fade-in-out 0.5s infinite alternate;
+  scroll_News 20s linear infinite,
+  Fade-in-out 0.5s infinite alternate;
 }
 @keyframes scroll_News {
   from {
@@ -196,4 +199,49 @@ body {
   height: 100%;
   object-fit: cover;
   transition:transform 0.5ms ease;
+}
+.photo_bar {
+  width: 300px;
+  position: absolute;
+  left: 76%;
+  top: 26%; 
+
+}
+
+.profile {
+  text-align: center;
+  height: 250px;
+  width: 180px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: rgb(238, 236, 236);
+}
+
+.profile img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  border: 3px solid white;
+}
+
+.profile h3 {
+  margin: 5px 0;
+  color:rgb(5, 5, 142);
+}
+
+.profile p {
+  color: #8b8989;
+}
+
+.Red{
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  padding: 10px;
+}
+.Blue{
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 10px;
 }
