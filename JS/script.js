@@ -26,3 +26,12 @@ setInterval(function () {
     }, 50);
   });
 }, 2000);
+
+function clock() {
+  let date = new Date();
+  let options = { day: "2-digit", month: "short", year: "numeric" };
+  let formattedDate = date.toLocaleDateString("en-GB", options);
+
+  document.getElementById("clock").innerHTML = formattedDate;
+}
+clock();
