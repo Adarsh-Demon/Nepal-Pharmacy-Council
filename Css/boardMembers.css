@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+  color: #333;
+}
+.contact {
+  width: 100%;
+  min-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+  border-bottom: 1px solid #ddd;
+  font-size: 13px;
+}
+.Top_Right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.Top_Left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #06459b;
+}
+.Top_Right span {
+  color: #06459b;
+}
+.number {
+  padding-right: 12px;
+  border-right: 1px solid #ccc;
+}
+.contact img {
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.facebook img {
+  width: 15px;
+}
+.logo {
+  width: 100%;
+  min-height: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 8%;
+}
+.NPC img {
+  width: 180px;
+  height: auto;
+}
+.Flag img {
+  width: auto;
+  height: 65px;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  background-color: #06459b;
+  color: white;
+}
+.nav > li {
+  position: relative;
+  padding: 15px 17px;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.nav > li:hover {
+  background-color: red;
+}
+.arrow {
+  margin-left: 5px;
+  font-size: 10px;
+}
+.DropDown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 230px;
+  list-style: none;
+  background-color: white;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+}
+.nav > li:hover .DropDown {
+  display: block;
+}
+.DropDown li {
+  padding: 12px 15px;
+  background-color: white;
+  color: #333;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+.DropDown li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.DropDown li:hover {
+  background-color: #06459b;
+  color: white;
+}
+.DropDown li:hover a {
+  color: white;
+}
