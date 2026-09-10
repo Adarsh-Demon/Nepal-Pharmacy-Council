@@ -106,17 +106,19 @@ body {
   font-size: 14px;
   border-bottom: 1px solid #eee;
 }
-.DropDown li a {
+.DropDown li a{
   text-decoration: none;
   color: #333;
 }
-.DropDown li a:hover {
-  color: white;
-}
+
 .DropDown li:hover {
   background-color: #06459b;
   color: white;
 }
+.DropDown li:hover a {
+    color: white;
+}
+
 .NewsBar {
   width: 100%;
   height: 38px;
@@ -210,8 +212,8 @@ body {
 .Side_Bar .fade .icon {
   color: white;
 }
-.fade {
-  animation: Fade-in-out 0.5 s infinite alternate;
+.fade{
+  animation: Fade-in-out 0.5  s infinite alternate;
 }
 .image_slider {
   width: 100%;
