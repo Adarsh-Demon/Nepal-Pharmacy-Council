@@ -132,11 +132,15 @@ body {
   padding: 35px 8%;
   align-items: flex-start;
 }
-
 .Side_Nav {
-  width: 230px;
+  width: 250px;
   flex-shrink: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  height: fit-content;
 }
+
 
 .Side_Nav ul {
   list-style: none;
@@ -145,11 +149,11 @@ body {
 
 .Side_Nav li {
   width: 100%;
-  padding: 14px 18px;
-  background-color: #f1f1f1;
-  color: #333;
+  padding: 18px 25px;
+  background-color: #f3f3f3;
+  color: #555;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .Side_Nav li a {
@@ -164,11 +168,6 @@ body {
 }
 
 .Side_Nav li:hover a {
-  color: white;
-}
-
-.Side_Nav li.About {
-  background-color: #06459b;
   color: white;
 }
 
