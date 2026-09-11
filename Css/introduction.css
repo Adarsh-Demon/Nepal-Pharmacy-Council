@@ -11,6 +11,10 @@ body {
   background: white;
   color: #333;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 .contact {
   width: 100%;
   min-height: 38px;
@@ -140,7 +144,6 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   height: fit-content;
 }
-
 
 .Side_Nav ul {
   list-style: none;
