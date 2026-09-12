@@ -174,23 +174,24 @@ a {
 }
 .College_Table {
   width: 100%;
-  border-collapse: collapse; 
+  border-collapse: collapse;
   table-layout: fixed;
-  background-color:white;
-  }
+  background-color: white;
+  color: #919090;
+}
 
 .College_Table th {
-  background-color: #06459b; /* blue header */
+  background-color: #06459b;
   color: white;
   padding: 10px;
   text-align: left;
 }
 .College_Table th:last-child,
 .College_Table td:last-child {
-  width: 90%;   /* wide for College Name */
+  width: 90%;
 }
 
-.Outer{
+.Outer {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 21px;
@@ -203,7 +204,6 @@ a {
   border-bottom: solid 1px #555;
   text-align: left;
 }
-
 
 .siteFooter {
   width: 100%;
