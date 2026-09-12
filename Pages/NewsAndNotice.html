@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Introduction</title>
-    <link rel="stylesheet" href="../Css/Regulation.css" />
+    <title>Code Of Conduct</title>
+    <link rel="stylesheet" href="../Css/NewsAndNotice.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -118,33 +118,78 @@
         <img src="../images/Mountains.jpg" alt="Mountains" />
       </div>
     </header>
-    <section class="About_Section">
-      <aside class="Side_Nav">
-        <ul>
-          <li>
-            <a href="../Pages/Act.html">Act</a>
-          </li>
-          <li style="background-color: blue; color: white; cursor: pointer">
-            <a href="../Pages/Regulation.html">Regulation</a>
-          </li>
-          <li><a href="../Pages/Guidelines.html">Guidelines</a></li>
-          <li><a href="../Pages/CoC.html">Code Of Conduct</a></li>
-        </ul>
-      </aside>
-      <div class="Outer_2">
-        <div class="Outer_1">
-          <div class="Outer">
-            <div class="File">
-              <span>Regulations</span>
+    <div class="news-section">
+      <div class="news-title">
+        <span>News</span>
+      </div>
 
-              <a href="../files/DeplomaRequiremnt.pdf" target="_blank">
-                Download
-              </a>
-            </div>
+
+      <div id="page1" class="news-page">
+        <div class="news-item">
+          <div class="news-heading">
+            <i class="fa fa-newspaper"></i>
+            <span
+              >नेपाल फार्मेसी परिषद्को ३१ औ नाम दर्ता परीक्षा सम्बन्धी जरुरी
+              सूचना</span
+            >
           </div>
+          <div class="date">Sep 02, 2026</div>
+        </div>
+
+        <div class="news-item">
+          <div class="news-heading">
+            <i class="fa fa-newspaper"></i>
+            <span>नेपाल फार्मेसी परिषद्को अत्यन्त जरुरी सूचना</span>
+          </div>
+          <div class="date">Aug 29, 2026</div>
+        </div>
+
+        <div class="news-item">
+          <div class="news-heading">
+            <i class="fa fa-newspaper"></i>
+            <span>नेपाल फार्मेसी परिषद्को हार्दिक अपिल</span>
+          </div>
+          <div class="date">Aug 26, 2026</div>
         </div>
       </div>
-    </section>
+
+
+      <div id="page2" class="news-page" style="display: none">
+        <div class="news-item">
+          <div class="news-heading">
+            <i class="fa fa-newspaper"></i>
+            <span>फार्मेसी परीक्षा सम्बन्धी महत्वपूर्ण सूचना</span>
+          </div>
+          <div class="date">Aug 20, 2026</div>
+        </div>
+
+        <div class="news-item">
+          <div class="news-heading">
+            <i class="fa fa-newspaper"></i>
+            <span>नाम दर्ता सम्बन्धी सूचना</span>
+          </div>
+          <div class="date">Aug 15, 2026</div>
+        </div>
+      </div>
+
+      <div id="page3" class="news-page" style="display: none">
+        <div class="news-item">
+          <div class="news-heading">
+            <i class="fa fa-newspaper"></i>
+            <span>नेपाल फार्मेसी परिषद्को नयाँ सूचना</span>
+          </div>
+          <div class="date">Aug 10, 2026</div>
+        </div>
+      </div>
+
+      <div class="pagination">
+        <button onclick="previousPage()">«</button>
+        <button onclick="showPage(1)">1</button>
+        <button onclick="showPage(2)">2</button>
+        <button onclick="showPage(3)">3</button>
+        <button onclick="nextPage()">»</button>
+      </div>
+    </div>
     <footer class="siteFooter">
       <div class="footerWrap">
         <div class="footCol footBrand">

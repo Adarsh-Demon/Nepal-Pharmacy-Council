@@ -35,3 +35,34 @@ function clock() {
   document.getElementById("clock").innerHTML = formattedDate;
 }
 clock();
+
+let page = 1;
+
+function showPage(number) {
+
+  document.getElementById("page1").style.display = "none";
+  document.getElementById("page2").style.display = "none";
+  document.getElementById("page3").style.display = "none";
+
+  document.getElementById("page" + number).style.display = "block";
+
+  page = number;
+}
+
+function nextPage() {
+
+  if (page < 3) {
+    page++;
+    showPage(page);
+  }
+
+}
+
+function previousPage() {
+
+  if (page > 1) {
+    page--;
+    showPage(page);
+  }
+
+}z
