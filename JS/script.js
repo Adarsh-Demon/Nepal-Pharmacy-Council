@@ -1,6 +1,6 @@
 let images = [
   "images/mp1.jpeg",
-  "images/mp2.jpeg",
+  "images/Mp2.jpeg",
   "images/mp3.jpeg",
   "images/mp4.jpeg",
 ];
