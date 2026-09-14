@@ -36,7 +36,7 @@ function clock() {
 }
 clock();
 const news = [
-  // Page 1
+
   {
     title:
       "नेपाल फार्मेसी परिषद्को ३१ औँ नाम दर्ता परीक्षा (फार्मासिस्ट) को नतिजा",
@@ -149,7 +149,6 @@ const news = [
     link: "https://nepalpharmacycouncil.org.np/news-details/109",
   },
 
-  // Page 2
   {
     title:
       "नेपाल फार्मेसी परिषद्को २९औ नाम दर्ता परीक्षा (फर्मासिष्टको) तालिका सम्बन्धि अत्यन्त जरुरी सूचना",
@@ -266,7 +265,6 @@ const news = [
     link: "https://nepalpharmacycouncil.org.np/news-details/89",
   },
 
-  // Page 3
   {
     title:
       "नेपाल फार्मेसी परिषद्को २७ औ नाम दर्ता परीक्षा (फर्मासिष्ट) सम्बन्धी अत्यन्त जरुरी सूचना",
@@ -381,7 +379,6 @@ const news = [
     link: "https://nepalpharmacycouncil.org.np/news-details/66",
   },
 
-  // Page 4
   {
     title:
       "नेपाल फार्मेसी परिषदको २५ औ नाम दर्ता परीक्षामा उतिर्ण फार्मेसी सहायकहरुमा नाम दर्ता प्रमाणपत्र बितरण सम्बन्धी अत्यन्त जरुरी सूचना",
@@ -495,7 +492,6 @@ const news = [
     link: "https://nepalpharmacycouncil.org.np/news-details/44",
   },
 
-  // Page 5
   {
     title: "Call for Participation!",
     date: "Jan 03, 2024",
@@ -607,8 +603,7 @@ const news = [
     date: "Jun 05, 2023",
     link: "https://nepalpharmacycouncil.org.np/news-details/14",
   },
-
-  // Page 6
+  
   {
     title:
       "२२ औ नाम दर्ता परीक्षामा उतीर्ण परीक्षार्थीहरु(फर्मासिष्ट) को लागि अत्यन्त जरुरी सूचना",
